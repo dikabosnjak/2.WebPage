@@ -1,0 +1,130 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgrey !important;
+  padding-bottom: 40px;
+}
+
+
+.slika{
+  width: 100%;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding: 15px;
+  background-color: lightgrey;
+}
+.slika img{
+  width: 200px;
+}
+.nav{
+  justify-content: space-around!important;
+  background-color: rgb(240, 97, 67);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.nav li{
+  width: 20%;
+  text-align: center;
+  border-right: 1px solid white;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+.nav li:last-child{
+  border: none;
+}
+
+.nav a{
+  color:white;
+}
+.jumbotron{
+  background-color: rgb(254, 208, 53)!important;
+  padding-left: 50% !important;
+  margin-bottom: 0!important;
+}
+h1.display-4{
+  padding-top: 20% !important;
+  font-size: 50px;
+}
+p.lead{
+  font-size: 18px;
+  padding-bottom: 5%;
+}
+.btn-primary{
+  background-color: rgb(240, 97, 67)!important;
+  border: none!important;
+}
+.d-flex{
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: white;
+}
+.d-flex>.p-2{
+  width: 33%;
+  background-color: rgb(189, 190, 194);
+  text-align: center;
+  color: white;
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 15px;
+  padding: 15px !important;
+}
+.container>.mb-3, .my-3{
+  margin-bottom: 0px !important;
+  padding-bottom: 20px;
+}
+.kolone{
+background-color: white;
+}
+.row{
+  width:80%;
+  margin: 0 auto !important;
+  color: grey;
+}
+.lista{
+}
+.lista ul{
+  list-style: none;
+  text-align: justify;
+}
+.lista li{
+  padding: 5px;
+  width: 90%;
+  border-right: 1px solid grey;
+}
+.col-sm-7{
+  padding: 30px !important;
+  padding-top: 0px !important;
+}
+.col-sm-2 img{
+  height: 100px;
+  margin-bottom:10px;
+}
+
+.pola-pola{
+  color: white;
+  background-color: red;
+  width: 100%;
+}
+.pola-pola h3{
+  font-size: 18px;
+}
+div.col-6{
+  padding: :20px !important;
+  margin-bottom: 15px;
+}
+div.col-6 h3{
+  margin-top: 20px;
+  padding-bottom: 30px;
+
+}
+p{
+  font-size: 15px;
+}
